@@ -1,0 +1,26 @@
+#navbar {
+  background-color: var(--secondary-color);
+}
+
+#contact-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 9vw;
+}
+
+.contact-item {
+  list-style-type: none;
+}
+
+.contact-item > i {
+  background-color: var(--tertiary-color);
+  padding: .5rem;
+  border-radius: 5rem;
+}
+
+#file-icon {
+  padding: .5rem .625rem;
+}
