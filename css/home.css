@@ -1,0 +1,9 @@
+#home-section {
+  background-image: url("../images/space-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 95vh;
+  width: 100vw;
+}
