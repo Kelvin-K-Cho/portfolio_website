@@ -1,3 +1,7 @@
+button:focus {
+    outline: none;
+}
+
 #navbar {
   background-color: var(--secondary-color);
 }
@@ -8,19 +12,18 @@
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  width: 9vw;
+  width: 215px;
 }
 
 .contact-item {
   list-style-type: none;
 }
 
-.contact-item > i {
-  background-color: var(--tertiary-color);
-  padding: .5rem;
+.contact-item > button {
+  padding: .5rem .8rem;
   border-radius: 5rem;
 }
 
 #file-icon {
-  padding: .5rem .625rem;
+  padding: 0 .1rem;
 }
