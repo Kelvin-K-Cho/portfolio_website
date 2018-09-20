@@ -4,6 +4,33 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 95vh;
-  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home-profile {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#home-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 1.5em;
+}
+
+#home-brief {
+  text-align:center;
+  width: 225px;
+}
+
+#home-picture {
+  border-radius: 50em;
+  margin-right: 10px;
 }

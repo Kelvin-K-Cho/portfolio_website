@@ -4,3 +4,8 @@
   --tertiary-color: #F4F4EF;
   --quaternary-color: #A01D26;
 }
+
+section {
+  height: 95vh;
+  width: 100vw;
+}
