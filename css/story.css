@@ -1,0 +1,20 @@
+#story-section {
+  background-image: url("../images/san-francisco.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#story-panel {
+  width: 30vw;
+  background-color: var(--primary-color);
+  opacity: .5;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

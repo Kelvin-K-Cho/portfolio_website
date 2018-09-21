@@ -2,6 +2,10 @@
   background-color: var(--secondary-color);
 }
 
+#navbar > span {
+  font-family: var(--primary-font);
+}
+
 #contact-list {
   display: flex;
   flex-direction: row;

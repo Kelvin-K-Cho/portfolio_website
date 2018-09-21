@@ -1,4 +1,6 @@
 :root {
+  --primary-font: "Lato", sans-serif;
+  --secondary-font: "Noto Sans", sans-serif;
   --primary-color: 	#20232A;
   --secondary-color: #ACBEBE;
   --tertiary-color: #F4F4EF;
