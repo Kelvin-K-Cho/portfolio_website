@@ -9,12 +9,27 @@
 }
 
 #story-panel {
-  width: 30vw;
+  border-left: solid .5em var(--quaternary-color);
+  width: 40vw;
   background-color: var(--primary-color);
-  opacity: .5;
+  opacity: .9;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+#story-container {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 2vw;
+}
+
+#story-container > p {
+  font-size: 1em;
+  width: 35vw;
 }
