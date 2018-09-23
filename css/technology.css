@@ -15,12 +15,12 @@
 }
 
 #technology-section .container > p {
-  margin: 2vh 0 0 0;
+  margin: 1.5vh 0 0 0;
 }
 
 #technology-list {
   padding: 0;
-  margin: 2vh 0 0 0;
+  margin: 1.5vh 0 0 0;
   display: grid;
   height: 70vh;
   width: 70vw;
