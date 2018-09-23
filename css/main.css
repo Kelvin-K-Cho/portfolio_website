@@ -16,14 +16,10 @@ section {
 
 .wrapper {
   display: flex;
-  flex-direction: row;
-  width: 80vw;
 }
 
 .container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .bullets {
