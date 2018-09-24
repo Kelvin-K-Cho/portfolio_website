@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="css/story.css" />
     <link rel="stylesheet" type="text/css" href="css/profile.css" />
     <link rel="stylesheet" type="text/css" href="css/technology.css" />
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css" />
     <link rel="stylesheet" type="text/css" href="css/contact.css" />
 
   </head>
@@ -72,9 +73,11 @@
       <aside id="story-panel">
         <div id="story-container">
           <h2>My Story</h2>
-          <p>I am a software developer focused in the San Francisco Bay Area. Love collaborating with others and learning new technologies.</p>
-          <p>Graduated from the University of California, Irvine back in 2012.  Shortly thereafter, I became a payments professional for a few years.</p>
-          <p>Ultimately decided to pursue software development as a career where I sharpened my skills in Ruby / Rails, JavaScript / Node.js, React / Redux and HTML5 / CSS3.</p>
+          <div id="story-details-container">
+            <p>I am a software developer focused in the San Francisco Bay Area. Love collaborating with others and learning new technologies.</p>
+            <p>Graduated from the University of California, Irvine back in 2012.  Shortly thereafter, I became a payments professional for a few years.</p>
+            <p>Ultimately decided to pursue software development as a career where I sharpened my skills in Ruby / Rails, JavaScript / Node.js, React / Redux and HTML5 / CSS3.</p>
+          </div>
         </div>
       </aside>
     </section>
@@ -239,6 +242,70 @@
           <h6>AWS (S3)</h6>
         </li>
       </ul>
+    </section>
+
+    <section id="portfolio-section">
+      <div class="container">
+        <h2>Portfolio</h2>
+        <div id="portfolio-banner" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#portfolio-banner" data-slide-to="0" class="active"></li>
+            <li data-target="#portfolio-banner" data-slide-to="1"></li>
+            <li data-target="#portfolio-banner" data-slide-to="2"></li>
+            <li data-target="#portfolio-banner" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <img src="images/jsg-flashcards.png" alt="jsg-flashcards">
+                <div class="portfolio-caption">
+                  <h5>JSG-Flashcards</h5>
+                  <p>A semi-original flashcard web application designed to make studying easier. Built using PostgreSQL, Rails and React.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <img src="images/dos.png" alt="dos">
+                <div class="portfolio-caption">
+                  <h5>Dos</h5>
+                  <p>A reimagined take on the classic game, Uno. Written in JavaScript, styled with HTML/CSS and bundled with Webpack.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <img src="images/recruited.png" alt="recruited">
+                <div class="portfolio-caption">
+                  <h5>Recruited</h5>
+                  <p>A collaborative job matching full stack application assembled using MongoDB, Express, React/Redux and Node.js.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <img src="images/hallyu.png" alt="hallyu">
+                <div class="portfolio-caption">
+                  <h5>Hallyu</h5>
+                  <p>A single-page music web application inspired by Pandora. Created using PostgreSQL, Ruby on Rails and React/Redux.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#portfolio-banner" role="button" data-slide="prev">
+            <div class="wrapper">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </div>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#portfolio-banner" role="button" data-slide="next">
+            <div class="wrapper">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </div>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
     </section>
 
     <section id="contact-section">
