@@ -35,7 +35,7 @@
 }
 
 #contact-modal-form button[type="submit"] {
-  visibility: hidden;
+  display: none;
   position: absolute;
   margin-top: 5vh;
 }

@@ -1,7 +1,7 @@
 $(function(){
 
   $(`#contact-modal-send`).click( () => {
-    $(`contact-modal-form`).submit();
+    $(`#contact-modal-form`).submit();
   });
 
 });
