@@ -31,13 +31,13 @@
 }
 
 #portfolio-banner img {
-  margin-top: 5vh;
+  margin-top: 4.5vh;
   width: 48vw;
 }
 
 #portfolio-banner > a {
   position: absolute;
-  top: 40%;
+  top: 28vh;
   padding: 1.6em 2em;
   border-radius: 5em;
   opacity: .5;
@@ -49,11 +49,13 @@
 }
 
 #portfolio-banner > a:first-of-type {
-  left: 5%;
+  /* left: 7.5%; */
+  left: 6.25vw;
 }
 
 #portfolio-banner > a:last-of-type {
-  left: 90%;
+  /* left: 87.5%; */
+  left: 71.75vw
 }
 
 #portfolio-banner > a > span {
