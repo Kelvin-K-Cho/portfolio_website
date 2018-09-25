@@ -314,9 +314,46 @@
         <p>Thanks for checking out my personal portfolio.  Feel free to reach to out to me using the button below.</p>
         <p>I always enjoy connecting with others and learning something new.</p>
       </div>
-      <button type="button" class="btn btn-light">Contact Me</button>
+      <button type="button" class="btn btn-light" data-toggle="modal" data-target="#contact-modal">Contact Me</button>
       <span>© Kelvin Cho. All rights reserved.</span>
     </section>
+
+    <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-modal-title" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h5 class="modal-title" id="contact-modal-title">Contact</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="contact-name">Name</label>
+                  <input type="name" class="form-control" id="contact-name" placeholder="John Doe">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="contact-email">Email</label>
+                  <input type="email" class="form-control" id="contact-email" placeholder="john_doe@gmail.com">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="contact-message">Message</label>
+                <textarea class="form-control" rows="5" id="contact-message" placeholder="Enter your message"></textarea>
+              </div>
+            </form>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </body>
 </html>

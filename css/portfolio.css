@@ -32,12 +32,12 @@
 
 #portfolio-banner img {
   margin-top: 4vh;
-  width: 90%;
+  width: 48vw;
 }
 
 #portfolio-banner > a {
-  opacity: 1;
-  background-color: var(--primary-color);
+  /* opacity: 1;
+  background-color: var(--primary-color); */
 }
 
 #portfolio-banner > a > .wrapper {
