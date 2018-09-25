@@ -21,3 +21,21 @@
 #contact-section button {
   margin-bottom: 1rem;
 }
+
+.modal-content > div {
+  padding: 1.5rem;
+}
+
+.form-row > .col-md-6:first-of-type {
+  padding-right: 15px;
+}
+
+.form-row > .col-md-6:last-of-type {
+  padding-left: 15px;
+}
+
+#contact-modal-form button[type="submit"] {
+  /* visibility: hidden; */
+  position: absolute;
+  margin-top: 5vh;
+}

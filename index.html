@@ -326,26 +326,27 @@
           </div>
 
           <div class="modal-body">
-            <form name="contact" method="POST" netlify>
+            <form id="contact-modal-form" name="contact" method="POST" netlify>
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <label for="contact-name">Name</label>
-                  <input type="name" class="form-control" id="contact-name" placeholder="John Doe">
+                  <input id="contact-name" name="name" type="name" class="form-control" placeholder="John Doe">
                 </div>
                 <div class="form-group col-md-6">
                   <label for="contact-email">Email</label>
-                  <input type="email" class="form-control" id="contact-email" placeholder="john_doe@gmail.com">
+                  <input id="contact-email" name="email" type="email" class="form-control" placeholder="john_doe@gmail.com">
                 </div>
               </div>
               <div class="form-group">
                 <label for="contact-message">Message</label>
-                <textarea class="form-control" rows="5" id="contact-message" placeholder="Enter your message"></textarea>
+                <textarea id="contact-message" name="message" class="form-control" rows="5" placeholder="Enter your message"></textarea>
               </div>
+              <button id="contact-modal-submit" type="submit">Send</button>
             </form>
           </div>
 
           <div class="modal-footer">
-            <button type="button" class="btn btn-primary">Send Message</button>
+            <button id="contact-modal-send" type="button" class="btn btn-primary">Send Message</button>
           </div>
         </div>
       </div>

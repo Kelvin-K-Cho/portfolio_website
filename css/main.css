@@ -41,17 +41,3 @@ html {
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
-
-/* Modal */
-
-.modal-content > div {
-  padding: 1.5rem;
-}
-
-.form-row > .col-md-6:first-of-type {
-  padding-right: 15px;
-}
-
-.form-row > .col-md-6:last-of-type {
-  padding-left: 15px;
-}

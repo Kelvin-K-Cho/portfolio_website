@@ -49,12 +49,10 @@
 }
 
 #portfolio-banner > a:first-of-type {
-  /* left: 7.5%; */
   left: 6.25vw;
 }
 
 #portfolio-banner > a:last-of-type {
-  /* left: 87.5%; */
   left: 71.75vw
 }
 
