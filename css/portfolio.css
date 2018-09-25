@@ -31,26 +31,33 @@
 }
 
 #portfolio-banner img {
-  margin-top: 4vh;
+  margin-top: 5vh;
   width: 48vw;
 }
 
 #portfolio-banner > a {
-  /* opacity: 1;
-  background-color: var(--primary-color); */
+  position: absolute;
+  top: 40%;
+  padding: 1.6em 2em;
+  border-radius: 5em;
+  opacity: .5;
 }
 
-#portfolio-banner > a > .wrapper {
-  height: 10vh;
-  width: 6vw;
-  align-items: center;
-  justify-content: center;
-  border-radius: 25em;
+#portfolio-banner > a:hover {
+  background: var(--quaternary-color);
+  opacity: 1;
 }
 
-#portfolio-banner > a span {
-  height: 50%;
-  width: 50%;
+#portfolio-banner > a:first-of-type {
+  left: 5%;
+}
+
+#portfolio-banner > a:last-of-type {
+  left: 90%;
+}
+
+#portfolio-banner > a > span {
+  margin-top: 7.5px;
 }
 
 .portfolio-caption {

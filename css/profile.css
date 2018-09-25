@@ -19,6 +19,7 @@
 
 #profile-section article {
   padding-top: 10vh;
+
 }
 
 #profile-section .wrapper:last-of-type article {
@@ -27,6 +28,7 @@
 
 #profile-section aside {
   width: 900px;
+  box-shadow: 1px 1px 1px 1px rgba(46, 43, 55, 0.575);
 }
 
 #profile-section header {
