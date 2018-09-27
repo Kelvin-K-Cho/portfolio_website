@@ -1,5 +1,6 @@
 #navbar {
   background-color: var(--secondary-color);
+  border-bottom: solid .5px black;
 }
 
 #navbar > span {
