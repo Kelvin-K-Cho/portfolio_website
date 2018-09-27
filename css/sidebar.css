@@ -1,0 +1,40 @@
+#sidebar {
+  position: fixed;
+  z-index: 1;
+  right: 1%;
+  top: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40vh;
+}
+
+.navigation-link {
+  list-style-type: none;
+}
+
+.navigation-link > button {
+  padding: .1rem .3rem;
+  border-radius: 5rem;
+}
+
+.navigation-link > button:hover {
+  padding: .4rem .6rem;
+}
+
+#word-icon {
+  padding: 0 .15rem;
+}
+
+#computer-icon {
+  padding-top: .3rem;
+}
+
+#folder-icon {
+  padding: 0 .05rem;
+}
+
+#comment-icon {
+  padding: 0 .05rem;
+}
