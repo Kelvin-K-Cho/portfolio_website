@@ -25,6 +25,10 @@
   border-radius: 5rem;
 }
 
+.contact-item > button:hover {
+  filter: invert(100%);
+}
+
 #file-icon {
   padding: 0 .05rem;
 }
