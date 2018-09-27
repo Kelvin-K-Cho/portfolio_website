@@ -10,7 +10,7 @@
 
 #story-panel {
   border-left: solid .5em var(--quaternary-color);
-  width: 42vw;
+  width: 41vw;
   background-color: var(--primary-color);
   opacity: .9;
   color: white;
