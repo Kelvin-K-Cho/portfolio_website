@@ -6,9 +6,8 @@ $(function(){
     offset: -55
   });
 
-  $(`#contact-modal-send`).click( () => {
-    $(`#contact-modal-form`).submit();
-  });
+  $("#home-section").hide().fadeIn(2500);
+  $(`#home-profile`).hide().fadeIn(5000);
 
   $(`.navigation-link`).click( (event) => {
     event.preventDefault();
@@ -18,5 +17,8 @@ $(function(){
     return false;
   });
 
+  $(`#contact-modal-send`).click( () => {
+    $(`#contact-modal-form`).submit();
+  });
 
 });
