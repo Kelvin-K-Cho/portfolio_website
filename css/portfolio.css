@@ -18,7 +18,7 @@
 
 #portfolio-banner {
   background-color: var(--secondary-color);
-  height: 70vh;
+  height: 66vh;
   margin-bottom: 5vh;
   box-shadow: 2px 2px 2px 2px rgba(46, 43, 55, 0.575);
 }
@@ -31,7 +31,7 @@
 }
 
 #portfolio-banner > .carousel-indicators {
-  bottom: 5vh;
+  bottom: 3vh;
 }
 
 #portfolio-banner img {
@@ -42,7 +42,7 @@
 
 #portfolio-banner > a {
   position: absolute;
-  top: 60vh;
+  top: 58vh;
   padding: 1em 1.5em;
   border-radius: 5em;
   opacity: .5;
