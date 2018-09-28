@@ -31,10 +31,6 @@
   text-align: center;
 }
 
-#portfolio-banner > .carousel-indicators {
-  bottom: 3vh;
-}
-
 #portfolio-banner img {
   margin-top: 4.5vh;
   width: 48vw;
@@ -105,81 +101,93 @@
 
 @media all and (max-width: 80em) {
 
+  #portfolio-banner {
+    height: 50vh;
+  }
+
   #portfolio-section > .container {
     height: 75vh;
   }
 
   #portfolio-banner > a:first-of-type {
-    left: 6vw;
+    left: -12vw;
   }
 
   #portfolio-banner > a:last-of-type {
-    right: 6vw;
+    right: -12vw;
   }
 
   #portfolio-banner > a {
-    top: 40vh;
-  }
-
-  #portfolio-banner {
-    height: 50vh;
+    background-color: var(--primary-color);
   }
 
 }
 
 @media all and (max-width: 70em) {
 
-  #portfolio-banner > a {
-    top: 38vh;
-  }
-
   #portfolio-banner > a:first-of-type {
-    left: 7vw;
+    left: -13vw;
   }
 
   #portfolio-banner > a:last-of-type {
-    right: 7vw;
+    right: -13vw;
   }
 
 }
 
 @media all and (max-width: 60em) {
 
-  #portfolio-banner > a {
-    top: 36vh;
+  #portfolio-section h2 {
+    padding-bottom: 2vh;
+  }
+
+  #portfolio-section > .container {
+    height: 60vh;
   }
 
   #portfolio-banner > a:first-of-type {
-    left: 8vw;
+    left: -14vw;
   }
 
   #portfolio-banner > a:last-of-type {
-    right: 8vw;
+    right: -14vw;
   }
 
 }
 
 @media all and (max-width: 50em) {
 
-  #portfolio-banner {
+  #portfolio-section > .container {
     height: 50vh;
   }
 
-  #portfolio-banner > a {
-    top: 35vh;
-  }
-
   #portfolio-banner > a:first-of-type {
-    left: 9vw;
+    left: -16vw;
   }
 
   #portfolio-banner > a:last-of-type {
-    right: 9vw;
+    right: -16vw;
+  }
+
+  #portfolio-banner {
+    height: 50vh;
   }
 
 }
 
 @media all and (max-width: 40em) {
+
+  #portfolio-section > .container {
+    height: 45vh;
+  }
+
+  #portfolio-banner > a:first-of-type {
+    left: -19vw;
+  }
+
+  #portfolio-banner > a:last-of-type {
+    right: -19vw;
+  }
 
   #portfolio-banner {
     height: 47vh;
