@@ -17,7 +17,7 @@ $(function(){
 
     $(window).on("scroll resize", function(){
       if (inViewport( $('#home-section') ) > 0) {
-        $("#home-profile").fadeIn(2000);
+        $("#home-profile").fadeIn(1000);
       } else {
         $("#home-profile").hide();
       }
@@ -49,6 +49,11 @@ $(function(){
       let id = event.currentTarget.id;
       let target = id.replace(`link`, `section`);
       $(`body`).scrollTo(`#${target}`);
+      if (target === "contact-section") {
+        setTimeout( function(){
+          $(`#contact-section > button`).click();
+        }, 1000 );
+      }
       return false;
     });
 
