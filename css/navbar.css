@@ -32,3 +32,21 @@
 #file-icon {
   padding: 0 .05rem;
 }
+
+#contact-list .navbar-toggler {
+  display: none;
+  background-color: var(--primary-color);
+  opacity: .5;
+}
+
+@media all and (max-width: 50em) {
+
+  #contact-list {
+    width: 250px;
+  }
+
+  #contact-list .navbar-toggler {
+    display: unset;
+  }
+
+}
