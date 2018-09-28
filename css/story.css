@@ -41,8 +41,26 @@
   width: 672px;
 }
 
+@media all and (max-width: 65em) {
+  #story-container {
+    margin-right: 0;
+  }
+}
+
 @media all and (max-width: 50em) {
+
   #story-panel {
     border: none;
+  }
+
+  #story-details-container > p {
+    width: 600px;
+  }
+
+}
+
+@media all and (max-width: 40em) {
+  #story-details-container > p {
+    width: 80vw;
   }
 }
