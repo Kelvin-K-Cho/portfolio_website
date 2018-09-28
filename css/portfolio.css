@@ -77,10 +77,6 @@
     height: 82vh;
   }
 
-  #portfolio-banner {
-    height: 58vh;
-  }
-
 }
 
 @media all and (max-width: 90em) {
@@ -91,10 +87,6 @@
 
   #portfolio-banner > a:last-of-type {
     right: 1.5vw;
-  }
-
-  #portfolio-banner {
-    height: 54vh;
   }
 
 }
@@ -153,10 +145,6 @@
     right: -14vw;
   }
 
-  #portfolio-banner > .carousel-indicators {
-    margin-top: 2vh;
-  }
-
 }
 
 @media all and (max-width: 50em) {
@@ -177,10 +165,6 @@
     height: 50vh;
   }
 
-  #portfolio-banner > .carousel-indicators {
-    margin-top: 4vh;
-  }
-
 }
 
 @media all and (max-width: 40em) {
@@ -199,10 +183,6 @@
 
   #portfolio-banner {
     height: 47vh;
-  }
-
-  #portfolio-banner > .carousel-indicators {
-    margin-top: 6vh;
   }
 
 }
