@@ -153,6 +153,10 @@
     right: -14vw;
   }
 
+  #portfolio-banner > .carousel-indicators {
+    padding-top: 1vh;
+  }
+
 }
 
 @media all and (max-width: 50em) {
@@ -173,6 +177,10 @@
     height: 50vh;
   }
 
+  #portfolio-banner > .carousel-indicators {
+    padding-top: 2vh;
+  }
+
 }
 
 @media all and (max-width: 40em) {
@@ -191,6 +199,10 @@
 
   #portfolio-banner {
     height: 47vh;
+  }
+
+  #portfolio-banner > .carousel-indicators {
+    padding-top: 3vh;
   }
 
 }
