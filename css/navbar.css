@@ -39,7 +39,7 @@
   opacity: .5;
 }
 
-@media all and (max-width: 50em) {
+@media all and (max-width: 65em) {
 
   #contact-list {
     width: 250px;
