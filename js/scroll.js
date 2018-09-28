@@ -31,18 +31,19 @@ $(function(){
       }
     });
 
-    $(window).on("scroll", function(){
-      if (inViewport( $('#technology-section') ) > 0) {
-        let delay = 0;
-        $(`.technology-item > i`).each( (index, element) => {
-          $(element).slideDown(delay);
-          delay += 100;
-        } );
-      } else {
-        $(`.technology-item > i`).hide();
-      }
-    });
-
+    if (window.matchMedia("(min-width: 60em)").matches) {
+      $(window).on("scroll", function(){
+        if (inViewport( $('#technology-section') ) > 0) {
+          let delay = 0;
+          $(`.technology-item > i`).each( (index, element) => {
+            $(element).slideDown(delay);
+            delay += 100;
+          } );
+        } else {
+          $(`.technology-item > i`).hide();
+        }
+      });
+    }
 
     $(`.navigation-link`).click( (event) => {
       event.preventDefault();

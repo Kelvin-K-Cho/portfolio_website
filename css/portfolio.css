@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 1000px;
+  height: 91vh;
 }
 
 #portfolio-section .container > h2 {
@@ -19,6 +19,7 @@
 #portfolio-banner {
   background-color: var(--secondary-color);
   height: 66vh;
+  width: 60vw;
   margin-bottom: 5vh;
   box-shadow: 2px 2px 2px 2px rgba(46, 43, 55, 0.575);
 }
@@ -42,7 +43,7 @@
 
 #portfolio-banner > a {
   position: absolute;
-  top: 58vh;
+  top: 27vh;
   padding: 1em 1.5em;
   border-radius: 5em;
   opacity: .5;
@@ -54,11 +55,11 @@
 }
 
 #portfolio-banner > a:first-of-type {
-  left: 10vw;
+  left: 2vw;
 }
 
 #portfolio-banner > a:last-of-type {
-  right: 10vw;
+  right: 2vw;
 }
 
 #portfolio-banner > a > span {
@@ -68,4 +69,120 @@
 .portfolio-caption {
   margin-top: 2.5vh;
   color: var(--primary-color);
+}
+
+@media all and (max-width: 100em) {
+
+  #portfolio-banner > a {
+    top: 20vh;
+  }
+
+  #portfolio-section > .container {
+    height: 82vh;
+  }
+
+  #portfolio-banner {
+    height: 58vh;
+  }
+
+}
+
+@media all and (max-width: 90em) {
+
+  #portfolio-banner > a:first-of-type {
+    left: 1.5vw;
+  }
+
+  #portfolio-banner > a:last-of-type {
+    right: 1.5vw;
+  }
+
+  #portfolio-banner {
+    height: 54vh;
+  }
+
+}
+
+@media all and (max-width: 80em) {
+
+  #portfolio-section > .container {
+    height: 75vh;
+  }
+
+  #portfolio-banner > a:first-of-type {
+    left: 6vw;
+  }
+
+  #portfolio-banner > a:last-of-type {
+    right: 6vw;
+  }
+
+  #portfolio-banner > a {
+    top: 40vh;
+  }
+
+  #portfolio-banner {
+    height: 50vh;
+  }
+
+}
+
+@media all and (max-width: 70em) {
+
+  #portfolio-banner > a {
+    top: 38vh;
+  }
+
+  #portfolio-banner > a:first-of-type {
+    left: 7vw;
+  }
+
+  #portfolio-banner > a:last-of-type {
+    right: 7vw;
+  }
+
+}
+
+@media all and (max-width: 60em) {
+
+  #portfolio-banner > a {
+    top: 36vh;
+  }
+
+  #portfolio-banner > a:first-of-type {
+    left: 8vw;
+  }
+
+  #portfolio-banner > a:last-of-type {
+    right: 8vw;
+  }
+
+}
+
+@media all and (max-width: 50em) {
+
+  #portfolio-banner {
+    height: 50vh;
+  }
+
+  #portfolio-banner > a {
+    top: 35vh;
+  }
+
+  #portfolio-banner > a:first-of-type {
+    left: 9vw;
+  }
+
+  #portfolio-banner > a:last-of-type {
+    right: 9vw;
+  }
+
+}
+
+@media all and (max-width: 40em) {
+
+  #portfolio-banner {
+    height: 47vh;
+  }
+
 }
