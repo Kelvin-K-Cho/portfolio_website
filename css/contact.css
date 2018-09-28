@@ -33,3 +33,13 @@
 .form-row > .col-md-6:last-of-type {
   padding-left: 15px;
 }
+
+@media all and (max-width: 48em) {
+  .form-row > .col-md-6:first-of-type {
+    padding: 0;
+  }
+
+  .form-row > .col-md-6:last-of-type {
+    padding: 0
+  }
+}
