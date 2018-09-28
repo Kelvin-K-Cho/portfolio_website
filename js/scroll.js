@@ -15,7 +15,7 @@ $(function(){
       return Math.max(0, t>0? Math.min(elH, H-t) : Math.min(b, H));
     };
 
-    $(window).on("scroll resize", function(){
+    $(window).on("scroll", function(){
       if (inViewport( $('#home-section') ) > 0) {
         $("#home-profile").fadeIn(1000);
       } else {
@@ -23,7 +23,7 @@ $(function(){
       }
     });
 
-    $(window).on("scroll resize", function(){
+    $(window).on("scroll", function(){
       if (inViewport( $('#story-section') ) > 0) {
         $("#story-panel").show( "slide" , { direction: "right" }, 1500 );
       } else {
@@ -31,7 +31,7 @@ $(function(){
       }
     });
 
-    $(window).on("scroll resize", function(){
+    $(window).on("scroll", function(){
       if (inViewport( $('#technology-section') ) > 0) {
         let delay = 0;
         $(`.technology-item > i`).each( (index, element) => {
