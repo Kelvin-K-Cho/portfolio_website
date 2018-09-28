@@ -25,7 +25,6 @@
 
 #profile-section article {
   padding-top: 10vh;
-
 }
 
 #profile-section .wrapper:last-of-type article {
@@ -47,4 +46,24 @@
 
 #profile-section .card {
   border: none;
+}
+
+@media all and (max-width: 80em) {
+
+  #profile-section .container {
+    flex-direction: column;
+  }
+
+}
+
+@media all and (max-width: 65em) {
+
+  #profile-section .container {
+    align-items: center;
+  }
+
+  #profile-section h4 {
+    text-align: center;
+  }
+
 }

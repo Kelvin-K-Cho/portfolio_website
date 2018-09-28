@@ -10,7 +10,7 @@
 
 #story-panel {
   border-left: solid .5em var(--quaternary-color);
-  width: 41vw;
+  width: 787px;
   background-color: var(--primary-color);
   opacity: .9;
   color: white;
@@ -38,5 +38,11 @@
 
 #story-details-container > p {
   font-size: 1em;
-  width: 35vw;
+  width: 672px;
+}
+
+@media all and (max-width: 50em) {
+  #story-panel {
+    border: none;
+  }
 }

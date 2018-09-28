@@ -47,7 +47,7 @@ $(function(){
     $(`.navigation-link`).click( (event) => {
       event.preventDefault();
       let id = event.currentTarget.id;
-      let target = id.replace(`link`, `section`);
+      let target = id.replace(`link`, `section`).replace(`alt-`, ``);
       $(`body`).scrollTo(`#${target}`);
       if (target === "contact-section") {
         setTimeout( function(){
