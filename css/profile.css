@@ -54,6 +54,14 @@
     flex-direction: column;
   }
 
+  #profile-section header {
+    padding-bottom: 2vh;
+  }
+
+  #profile-section aside {
+    width: 80vw;
+  }
+
 }
 
 @media all and (max-width: 65em) {

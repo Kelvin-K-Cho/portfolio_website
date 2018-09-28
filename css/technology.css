@@ -37,3 +37,38 @@
 .technology-item > i {
   font-size: 5em;
 }
+
+@media all and (max-width: 80em) {
+  #technology-list {
+    grid-template-columns: repeat(5, 1fr);
+    overflow: scroll;
+    grid-row-gap: 1em;
+  }
+}
+
+@media all and (max-width: 70em) {
+  #technology-list {
+    padding-top: 1em;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: scroll;
+    grid-row-gap: 2em;
+  }
+}
+
+@media all and (max-width: 60em) {
+  #technology-list {
+    padding-top: 2em;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: scroll;
+    grid-row-gap: 3em;
+  }
+}
+
+@media all and (max-width: 50em) {
+  #technology-list {
+    padding-top: 3em;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: scroll;
+    grid-row-gap: 4em;
+  }
+}
