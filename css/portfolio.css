@@ -154,7 +154,7 @@
   }
 
   #portfolio-banner > .carousel-indicators {
-    padding-top: 2vh;
+    margin-top: 2vh;
   }
 
 }
@@ -178,7 +178,7 @@
   }
 
   #portfolio-banner > .carousel-indicators {
-    padding-top: 4vh;
+    margin-top: 4vh;
   }
 
 }
@@ -202,7 +202,7 @@
   }
 
   #portfolio-banner > .carousel-indicators {
-    padding-top: 6vh;
+    margin-top: 6vh;
   }
 
 }
