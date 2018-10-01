@@ -62,9 +62,20 @@
   margin-top: 7.5px;
 }
 
-.portfolio-caption {
+#portfolio-section .portfolio-caption {
   margin-top: 2.5vh;
   color: var(--primary-color);
+}
+
+#portfolio-section .carousel-indicators {
+  bottom: 5px;
+}
+
+#portfolio-section .carousel-indicators > li {
+  height: 10px;
+  width: 10px;
+  border-radius: 5em;
+  margin: 0 10px;
 }
 
 @media all and (max-width: 100em) {
