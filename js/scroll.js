@@ -8,11 +8,11 @@ $(function(){
 
     let inViewport = ($el) => {
       let elH = $el.outerHeight(),
-          H = $(window).height(),
+          h = $(window).height(),
           r = $el[0].getBoundingClientRect(),
           t=r.top,
           b=r.bottom;
-      return Math.max(0, t>0? Math.min(elH, H-t) : Math.min(b, H));
+      return Math.max(0, t>0? Math.min(elH, h-t) : Math.min(b, h));
     };
 
     $(window).on("scroll", function(){
