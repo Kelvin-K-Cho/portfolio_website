@@ -38,6 +38,16 @@
 
 #profile-section header {
   font-size: 1.5em;
+  background-color: white;
+  height: 2em;
+  padding: 5px 10px;
+  box-shadow: 1px 1px 1px 1px rgba(46, 43, 55, 0.575);
+  border-radius: 5px;
+  width: 5.7em;
+}
+
+#profile-section .wrapper:last-of-type header {
+  width: 5.3em;
 }
 
 #profile-section p {
@@ -55,6 +65,7 @@
   }
 
   #profile-section header {
+    margin-bottom: 2vh;
     padding-bottom: 2vh;
   }
 
