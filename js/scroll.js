@@ -25,49 +25,53 @@ $(function(){
       }
     };
 
-    $(window).on("scroll", function(){
-      if (inViewport( $('#home-section') ) > 0) {
-        $("#home-profile").fadeIn(1000);
-      } else {
-        $("#home-profile").hide();
-      }
-    });
+    if ( $(window).width() > 786 ) {
 
-    $(window).on("scroll", function(){
-      if (inViewport( $('#story-section') ) > 0) {
-        $("#story-panel").show( "slide" , { direction: "right" }, 1500 );
-      } else {
-        $("#story-panel").hide();
-      }
-    });
+      $(window).on("scroll", function(){
+        if (inViewport( $('#home-section') ) > 0) {
+          $("#home-profile").fadeIn(1000);
+        } else {
+          $("#home-profile").hide();
+        }
+      });
 
-    $(window).on("scroll resize", function(){
-      checkSize();
-      if (!normal) {
+      $(window).on("scroll", function(){
+        if (inViewport( $('#story-section') ) > 0) {
+          $("#story-panel").show( "slide" , { direction: "right" }, 1500 );
+        } else {
+          $("#story-panel").hide();
+        }
+      });
+
+      $(window).on("scroll resize", function(){
+        checkSize();
+        if (!normal) {
+          return false;
+        }
+        if (inViewport( $('#technology-section') ) > 0) {
+          let delay = 0;
+          $(`.technology-item > i`).each( (index, element) => {
+            $(element).slideDown(delay);
+            delay += 100;
+          } );
+        } else {
+          $(`.technology-item > i`).hide();
+        }
+      });
+
+      $(`.navigation-link`).click( (event) => {
+        event.preventDefault();
+        let id = event.currentTarget.id;
+        let target = id.replace(`link`, `section`).replace(`alt-`, ``);
+        $(`body`).scrollTo(`#${target}`);
+        if (target === "contact-section") {
+          setTimeout( function(){
+            $(`#contact-section > button`).click();
+          }, 1000 );
+        }
         return false;
-      }
-      if (inViewport( $('#technology-section') ) > 0) {
-        let delay = 0;
-        $(`.technology-item > i`).each( (index, element) => {
-          $(element).slideDown(delay);
-          delay += 100;
-        } );
-      } else {
-        $(`.technology-item > i`).hide();
-      }
-    });
-
-    $(`.navigation-link`).click( (event) => {
-      event.preventDefault();
-      let id = event.currentTarget.id;
-      let target = id.replace(`link`, `section`).replace(`alt-`, ``);
-      $(`body`).scrollTo(`#${target}`);
-      if (target === "contact-section") {
-        setTimeout( function(){
-          $(`#contact-section > button`).click();
-        }, 1000 );
-      }
-      return false;
-    });
+      });
+      
+    }
 
 });
