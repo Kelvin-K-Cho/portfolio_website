@@ -71,6 +71,10 @@
   margin: 0;
 }
 
+#portfolio-section .carousel-inner {
+  min-height: 500px;
+}
+
 #portfolio-section .carousel-indicators {
   bottom: 5px;
 }
