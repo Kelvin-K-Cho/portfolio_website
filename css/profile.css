@@ -58,6 +58,10 @@
   border: none;
 }
 
+#profile-section .card:not(:last-child) .card-body {
+  padding-bottom: 0;
+}
+
 @media all and (max-width: 80em) {
 
   #profile-section .container {
